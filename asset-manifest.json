@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/pizza-test/static/css/main.12bbf7e9.chunk.css",
+    "main.js": "/pizza-test/static/js/main.86394bab.chunk.js",
+    "main.js.map": "/pizza-test/static/js/main.86394bab.chunk.js.map",
+    "runtime-main.js": "/pizza-test/static/js/runtime-main.54fa89b6.js",
+    "runtime-main.js.map": "/pizza-test/static/js/runtime-main.54fa89b6.js.map",
+    "static/js/2.0a2732f0.chunk.js": "/pizza-test/static/js/2.0a2732f0.chunk.js",
+    "static/js/2.0a2732f0.chunk.js.map": "/pizza-test/static/js/2.0a2732f0.chunk.js.map",
+    "index.html": "/pizza-test/index.html",
+    "static/css/main.12bbf7e9.chunk.css.map": "/pizza-test/static/css/main.12bbf7e9.chunk.css.map",
+    "static/js/2.0a2732f0.chunk.js.LICENSE.txt": "/pizza-test/static/js/2.0a2732f0.chunk.js.LICENSE.txt",
+    "static/media/cap.3cf1d8b9.jpg": "/pizza-test/static/media/cap.3cf1d8b9.jpg",
+    "static/media/gavay.8d937846.jpg": "/pizza-test/static/media/gavay.8d937846.jpg",
+    "static/media/king_one.f4c785d5.jpg": "/pizza-test/static/media/king_one.f4c785d5.jpg",
+    "static/media/onions.b9d91e3a.jpg": "/pizza-test/static/media/onions.b9d91e3a.jpg",
+    "static/media/tonno.c3655096.jpg": "/pizza-test/static/media/tonno.c3655096.jpg",
+    "static/media/vegeterian.cc26c4f9.jpg": "/pizza-test/static/media/vegeterian.cc26c4f9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54fa89b6.js",
+    "static/js/2.0a2732f0.chunk.js",
+    "static/css/main.12bbf7e9.chunk.css",
+    "static/js/main.86394bab.chunk.js"
+  ]
+}
