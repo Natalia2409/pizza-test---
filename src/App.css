@@ -1,38 +1,159 @@
-.App {
+.app {
   text-align: center;
-}
+  display: flex; }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.pizzaList {
+  max-width: 600px;
+  margin: 0 auto; }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.pizza {
+  border: 1px solid #000;
+  border-radius: 20px;
+  max-width: 600px;
+  margin-top: 5px; }
+  .pizza__main {
+    width: 50%;
+    border-right: 1px solid #000; }
+  .pizza__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .pizza__button {
+    width: 150px; }
+    .pizza__button button {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      font-size: 26px;
+      border: none;
+      cursor: pointer;
+      background-color: #dfbebe; }
+      .pizza__button button:focus {
+        outline: none; }
+  .pizza__list {
+    list-style-type: none; }
+  .pizza__lists {
+    margin-left: 10px; }
+  .pizza__img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.order {
+  width: 300px;
+  border: 1px solid #000;
+  border-radius: 10px; }
+  .order__block {
+    padding: 0 20px;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-top: 5px;
+    list-style-type: none; }
+  .order__inside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .order__meal {
+    color: red;
+    text-transform: uppercase;
+    font-size: 20px; }
+  .order__button {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: #3a7ae0;
+    color: #fff; }
+    .order__button:focus {
+      outline: none; }
+  .order__buttons {
+    margin-top: 10px; }
+  .order__submit {
+    height: 30px;
+    width: 40%;
+    background-color: #3a7ae0;
+    color: #fff;
+    margin-right: 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; }
+    .order__submit:focus {
+      outline: none; }
+    .order__submit:hover {
+      background-color: #063b8f; }
+  .order__clear {
+    height: 30px;
+    width: 40%;
+    background-color: #3a7ae0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; }
+    .order__clear:focus {
+      outline: none; }
+    .order__clear:hover {
+      background-color: #063b8f; }
+  .order__thanks {
+    font-size: 24px;
+    margin-top: 20px; }
 
-.App-link {
-  color: #61dafb;
-}
+.popular {
+  border: 1px solid #000;
+  border-radius: 10px;
+  min-height: 200px; }
+  .popular__get {
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3a7ae0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px; }
+    .popular__get:focus {
+      outline: none; }
+    .popular__get:hover {
+      background-color: #063b8f; }
+  .popular__title {
+    max-width: 300px; }
+  .popular__list {
+    margin: 0 auto;
+    max-width: 200px; }
+  .popular__pizza {
+    font-size: 24px;
+    margin-top: 15px; }
+  .popular__ingredients {
+    font-size: 12px;
+    max-width: 150px;
+    margin: 0 auto;
+    color: red; }
+  .popular__button {
+    width: 50%;
+    background-color: #3a7ae0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 20px;
+    color: #fff; }
+    .popular__button:focus {
+      outline: none; }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.orders {
+  border: 1px solid #000;
+  border-radius: 10px;
+  min-height: 350px;
+  margin-top: 10px; }
+  .orders__title {
+    font-size: 26px; }
+  .orders__lists {
+    width: 80%;
+    margin: 0 auto; }
+  .orders__list {
+    border: 1px solid #000;
+    border-radius: 5px; }
+
+/*# sourceMappingURL=App.css.map */

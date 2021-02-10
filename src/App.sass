@@ -1,0 +1,157 @@
+.app
+    text-align: center
+    display: flex
+
+.pizzaList
+    max-width: 600px
+    margin: 0 auto
+
+.pizza
+    border: 1px solid #000
+    border-radius: 20px
+    max-width: 600px
+    margin-top: 5px
+    &__main
+        width: 50%
+        border-right: 1px solid #000
+    &__block
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__button
+        width: 150px
+        button
+            width: 50px
+            height: 50px
+            border-radius: 50%
+            font-size: 26px
+            border: none
+            cursor: pointer
+            background-color: #dfbebe
+            &:focus
+                outline: none
+    &__list
+        list-style-type: none
+    &__lists
+        margin-left: 10px
+    &__img
+        width: 100px
+        height: 100px
+        border-radius: 50%
+
+.order
+    width: 300px
+    border: 1px solid #000
+    border-radius: 10px
+    &__block
+        padding: 0 20px
+        width: 90%
+        margin: 0 auto
+        border: 1px solid #000
+        border-radius: 10px
+        margin-top: 5px
+        list-style-type: none
+    &__inside
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__meal
+        color: red
+        text-transform: uppercase
+        font-size: 20px
+    &__button
+        width: 22px
+        height: 22px
+        border-radius: 50%
+        border: none
+        cursor: pointer
+        background-color: #3a7ae0
+        color: #fff
+        &:focus
+            outline: none
+    &__buttons
+        margin-top: 10px
+    &__submit
+        height: 30px
+        width: 40%
+        background-color: #3a7ae0
+        color: #fff
+        margin-right: 2px
+        border: none
+        border-radius: 5px
+        cursor: pointer
+        &:focus
+            outline: none
+        &:hover
+            background-color: #063b8f
+    &__clear
+        height: 30px
+        width: 40%
+        background-color: #3a7ae0
+        color: #fff
+        border: none
+        border-radius: 5px
+        cursor: pointer
+        &:focus
+            outline: none
+        &:hover
+            background-color: #063b8f
+    &__thanks
+        font-size: 24px
+        margin-top: 20px
+
+.popular
+    border: 1px solid #000
+    border-radius: 10px
+    min-height: 200px
+    &__get
+        width: 80%
+        height: 30px
+        border: none
+        border-radius: 10px
+        background-color: #3a7ae0
+        color: #fff
+        font-size: 16px
+        cursor: pointer
+        margin-top: 5px
+        &:focus
+            outline: none
+        &:hover
+            background-color: #063b8f
+    &__title
+        max-width: 300px
+    &__list
+        margin: 0 auto
+        max-width: 200px
+    &__pizza
+        font-size: 24px
+        margin-top: 15px
+    &__ingredients
+        font-size: 12px
+        max-width: 150px
+        margin: 0 auto
+        color: red
+    &__button
+        width: 50%
+        background-color: #3a7ae0
+        border: none
+        cursor: pointer
+        border-radius: 5px
+        height: 20px
+        color: #fff
+        &:focus
+            outline: none
+
+.orders
+    border: 1px solid #000
+    border-radius: 10px
+    min-height: 350px
+    margin-top: 10px
+    &__title
+        font-size: 26px
+    &__lists
+        width: 80%
+        margin: 0 auto
+    &__list
+        border: 1px solid #000
+        border-radius: 5px
